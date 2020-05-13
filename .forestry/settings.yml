@@ -9,6 +9,8 @@ sections:
   label: Tags
   create: all
   match: "**/_index.md"
+  templates:
+  - tag
 - type: heading
   label: Content
 - type: document
