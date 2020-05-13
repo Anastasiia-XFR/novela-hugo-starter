@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-- type: directory
-  path: content/tags
-  label: Tags
-  create: all
-  match: "**/_index.md"
-  templates:
-  - tag
 - type: heading
   label: Content
 - type: document
