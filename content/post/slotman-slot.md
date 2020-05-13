@@ -1,14 +1,12 @@
 ---
-title: Slotman Runner
-date: 2020-05-12T21:00:00+00:00
-creator: Slotman
-hero: "/images/logos/table/casino_roulette_850x300.jpg"
-iframe: https://slotmangame.com/
-link: https://slotmancasino.com/game/slotman
+title: Slotman Slot
+date: 2020-05-11T21:00:00+00:00
+hero: "/images/logos/slotman_slot.jpg"
+iframe: https://www.slotman.com/game/slotman 
 tags:
 - new
 - popular
-- runner
+- slot
 authors:
 - Slotman
 

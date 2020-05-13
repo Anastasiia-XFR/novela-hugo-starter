@@ -21,10 +21,10 @@ function makeDark(){
     be.style.setProperty('--primary', "#fff");
     be.style.setProperty('--secondary', "#fff");
     be.style.setProperty('--grey', "#73737D");
-    be.style.setProperty('--background-color', "radial-gradient(circle at left 50%, #2d3a5c, #2d3a5c, #2d3a5c, #000, #000)");
+    be.style.setProperty('--background-color', "radial-gradient(circle at left 50%, #172037, #172037, #172037, #000, #000) ");
     be.style.setProperty('--accent', "#E9DAAC");
     be.style.setProperty('--hover', "rgba(255, 255, 255, 0.07)");
-    be.style.setProperty('--gradient', "linear-gradient(0,  #000821, transparent)");
+    be.style.setProperty('--gradient', "linear-gradient(0deg, #172037, transparent)");
     be.style.setProperty('--articleText', "#fff");
     be.style.setProperty('--track', "rgba(255, 255, 255, 0.3)");
     be.style.setProperty('--progress', "#fff");
@@ -41,10 +41,10 @@ function makeLight(){
     be.style.setProperty('--primary', "#fff");
     be.style.setProperty('--secondary', "");
     be.style.setProperty('--grey', "#c0c7d8");
-    be.style.setProperty('--background-color', "linear-gradient(60deg, #2c3b62, #2c3b62, #172037)");
+    be.style.setProperty('--background-color', "radial-gradient(circle at left 50%, #2d3a5c, #2d3a5c, #2d3a5c, #000, #000)");
     be.style.setProperty('--accent', "");
     be.style.setProperty('--hover', "");
-    be.style.setProperty('--gradient', "linear-gradient(0deg, #172037, transparent)");
+    be.style.setProperty('--gradient', "linear-gradient(0, #000821, transparent)");
     be.style.setProperty('--articleText', "#fff");
     be.style.setProperty('--track', "");
     be.style.setProperty('--progress', "");

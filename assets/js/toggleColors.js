@@ -67,10 +67,10 @@ function makeDark(){
     bodyElement.style.setProperty('--primary', "#fff");
     bodyElement.style.setProperty('--secondary', "#fff");
     bodyElement.style.setProperty('--grey', "#73737D");
-    bodyElement.style.setProperty('--background-color', "radial-gradient(circle at left 50%, #2d3a5c, #2d3a5c, #2d3a5c, #000, #000)");
+    bodyElement.style.setProperty('--background-color', "radial-gradient(circle at left 50%, #172037, #172037, #172037, #000, #000) ");
     bodyElement.style.setProperty('--accent', "#E9DAAC");
     bodyElement.style.setProperty('--hover', "rgba(255, 255, 255, 0.07)");
-    bodyElement.style.setProperty('--gradient', "linear-gradient(0,  #000821, transparent)");
+    bodyElement.style.setProperty('--gradient', "linear-gradient(0, #000821, transparent)");
     bodyElement.style.setProperty('--articleText', "#fff");
     bodyElement.style.setProperty('--track', "rgba(255, 255, 255, 0.3)");
     bodyElement.style.setProperty('--progress', "#fff");
@@ -87,7 +87,7 @@ function makeLight(){
     bodyElement.style.setProperty('--primary', "#fff");
     bodyElement.style.setProperty('--secondary', "");
     bodyElement.style.setProperty('--grey', "#c0c7d8");
-    bodyElement.style.setProperty('--background-color', "linear-gradient(60deg, #2c3b62, #2c3b62, #172037)");
+    bodyElement.style.setProperty('--background-color', "radial-gradient(circle at left 50%, #2c3b62, #2c3b62, #2c3b62, #172037, #172037)");
     bodyElement.style.setProperty('--accent', "");
     bodyElement.style.setProperty('--hover', "");
     bodyElement.style.setProperty('--gradient', "linear-gradient(0deg, #172037, transparent)");
