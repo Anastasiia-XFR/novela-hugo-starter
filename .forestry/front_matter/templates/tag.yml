@@ -1,8 +1,0 @@
----
-label: Tag
-hide_body: true
-fields:
-- name: tag
-  type: tag_list
-  default: []
-  label: tag
