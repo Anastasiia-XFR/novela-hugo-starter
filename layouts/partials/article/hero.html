@@ -1,0 +1,30 @@
+<section id="articleHero" class="section narrow">
+    <div class="article-hero">
+        <header class="article-header">
+            <h1 class="article-hero-heading">{{ .Page.Params.Title }}</h1>
+            <div class="article-hero-subtitle">
+                <div class="article-meta">
+                 <hgroup>
+                    {{ partial "article/authors.html" . }}<span> {{ .Page.Date.Format "January 2, 2006" }}</span>
+                </hgroup>
+                <nav class="tags">                
+                    {{ range .Params.tags }}
+
+                    <a class="tag" href='{{ "tags/" | relLangURL }}{{ . | urlize }}/' rel="tag">
+                      {{- . -}}
+                  </a>
+
+                  {{ end }}
+              </nav>
+          </div>
+      </div>
+  </header>
+  <div class="article-hero-image" id="ArticleImage__Hero">
+   {{ with .Page.Params.hero }}
+   <img src="{{ . }}">
+   {{ end }}
+   <iframe src="{{ .Params.iframe }}" frameborder="0" marginwidth="0" marginheight="0" width="100%"></iframe>
+</div>
+
+</div>
+</section>

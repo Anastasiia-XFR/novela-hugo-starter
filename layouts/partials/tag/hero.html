@@ -1,0 +1,16 @@
+<section class="section narrow">
+    <div class="author-hero">
+        {{ with .Params.avatar }}
+            <div class="author-hero-image">
+                <img src="{{ . }}" />
+            </div>
+        {{ end }}
+        <h1 class="author-heading" style="margin-bottom: 0;">{{ .Title }}</h1>
+         <p class="text-center"><a href="https://{{ .Params.site }}/" class="text-link">{{ .Params.site }}</a></p>
+        <p class="author-subheading">{{ .Params.bio }}</p>
+
+        <div class="author-social">
+            {{ partial "author/social_links.html" . }}
+        </div>
+    </div>
+</section>

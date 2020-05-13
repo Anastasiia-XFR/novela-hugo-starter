@@ -1,7 +1,7 @@
 ---
 hero:
-  heading: Novela, the simplest way to start publishing with Hugo and Forestry.
+  heading: We don't stop playing because we grow old. We grow old because we stop playing.
   maxWidthPX: 652
 seo:
-  image: /images/hero-2.jpg
+  image: /images/logos/slot/slotman_game.jpg
 ---

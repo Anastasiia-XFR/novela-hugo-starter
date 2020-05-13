@@ -1,17 +1,27 @@
-baseURL: "https://example.com"
+baseURL: "https://xenodochial-swirles-49b2f2.netlify.app"
+#baseURL: "https://example.com"
 languageCode: "en-us"
-title: "Hugo Novela"
-pygmentsstyle: 'monokai'
+title: Slotman game
+pygmentsstyle: monokai
+tags: ["new", "popular", "table", "live", "other", "slot", "jackpot"]
 
 # Theme settings
-theme: novela
+
+params:
+  logo: /images/logo.png
+  favicon: /images/favicon.ico
+  email: support@slotman.com
+  site: https://www.slotman.com/
+  ga: UA-163602877-1
+  gtm: GTM-WM3JSMN
+
 paginate: 6
 social:
-  twitter: "#"
-  github: "#"
+  facebook: "https://www.facebook.com/slotman.casino"
   instagram: "#"
-  linkedin: "#"
-  dribbble: "#"
   youtube: "#"
+  
 taxonomies:
   author: authors
+  tag: tags
+  category: categories
