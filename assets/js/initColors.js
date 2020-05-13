@@ -41,10 +41,10 @@ function makeLight(){
     be.style.setProperty('--primary', "#fff");
     be.style.setProperty('--secondary', "");
     be.style.setProperty('--grey', "#c0c7d8");
-    be.style.setProperty('--background-color', "linear-gradient(60deg, #2c3b62, #2c3b62, #d1dcff)");
+    be.style.setProperty('--background-color', "linear-gradient(60deg, #2c3b62, #2c3b62, #172037)");
     be.style.setProperty('--accent', "");
     be.style.setProperty('--hover', "");
-    be.style.setProperty('--gradient', "linear-gradient(0deg, #6c7a9f, transparent)");
+    be.style.setProperty('--gradient', "linear-gradient(0deg, #172037, transparent)");
     be.style.setProperty('--articleText', "#fff");
     be.style.setProperty('--track', "");
     be.style.setProperty('--progress', "");

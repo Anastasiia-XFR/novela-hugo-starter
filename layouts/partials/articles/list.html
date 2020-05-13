@@ -1,5 +1,10 @@
 <section class="section nartrow">
   <div id="articlesList" class="articles-list-container show-details">
+
+
+
+ 
+
     {{ $posts := partialCached "func/GetArticles" . "articles" }}
     {{ $paginator := .Paginate $posts }}
     {{ $biggerFirst := true }}
@@ -8,6 +13,8 @@
     {{ $counter := mod $index 2 }}
     {{ if not $counter }}
     <div class="post-row">
+
+
       {{ end }}
      
         <a href="{{ $article.RelPermalink }}" class="article-link"
@@ -63,10 +70,22 @@
       </a>
     
 
+
+
+
+
+
     {{ $counter := mod (add $index 1) 2 }}
     {{ $len := (where .Pages "Type" "posts") }}
     {{ if or (eq $counter 0) (eq (add $index 1) $len) }}
+
+
+   
+
   </div>
+
+
+
   {{ $biggerPlaced = false }}
   {{ if $biggerFirst }}
   {{ $biggerFirst = false }}
@@ -75,6 +94,23 @@
   {{ end }}
   {{ end }}
   {{ end }}
+
+   <section class="article-link"
+        id="article-link-bigger"
+       >
+        <div class="article-data-outer">
+         
+          <div class="image-container" style="-webkit-box-shadow: none;
+          box-shadow: none;">
+
+            <img src="/images/logos/cite.png" class="article-image" />
+
+          </div>
+      
+        </div>
+      </section>
+
 </div>
+
 {{ partial "paginator/paginator.html" . }}
 </section>
